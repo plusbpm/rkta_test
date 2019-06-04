@@ -10,7 +10,7 @@
     "postinstall": "lerna bootstrap",
     "lint": "lerna run lint",
     "make": "lerna run lint && npm run build",
-    "publish": "npm run make && lerna publish --contents lib",
+    "publish": "npm run make && lerna publish --contents lib --yes patch",
     "type-check": "lerna run type-check"
   },
   "devDependencies": {

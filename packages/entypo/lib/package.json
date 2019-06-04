@@ -1,6 +1,6 @@
 {
   "name": "@rkta_test/entypo",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "> TODO: description",
   "author": "Sergei Droganov <serge@droganov.ru>",
   "homepage": "https://github.com/plusbpm/rkta_test",
@@ -9,9 +9,6 @@
   "directories": {
     "lib": "lib"
   },
-  "files": [
-    "lib"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/plusbpm/rkta_test.git"
@@ -36,7 +33,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@rkta_test/ui": "^0.0.11"
+    "@rkta_test/ui": "^0.0.12"
   },
-  "gitHead": "5db82f9d9e82479b07f7bbe2abf9b6871842d624"
+  "gitHead": "2fcae9e90f165423097379899bb6240ddddb40a2"
 }
