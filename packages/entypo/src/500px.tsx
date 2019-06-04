@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react';
 
-import Svg from '@rkta/ui/lib/Svg';
-import { Props as SvgProps } from '@rkta/ui/lib/Svg/Svg';
+import Svg from '@rkta_test/ui/lib/Svg';
+import { Props as SvgProps } from '@rkta_test/ui/lib/Svg/Svg';
 
 const FiveHundredPx = (props: SvgProps): ReactNode => (
   <Svg {...props} viewBox="0 0 20 20">
