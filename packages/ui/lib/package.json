@@ -1,6 +1,6 @@
 {
   "name": "@rkta_test/ui",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "> TODO: description",
   "author": "Sergei Droganov <serge@droganov.ru>",
   "homepage": "https://github.com/plusbpm/rkta_test",
@@ -40,5 +40,5 @@
     "emotion-theming": "latest",
     "lodash": "latest"
   },
-  "gitHead": "2fcae9e90f165423097379899bb6240ddddb40a2"
+  "gitHead": "b765945d1047d5c454858e89c3d7bf86b9568f96"
 }
