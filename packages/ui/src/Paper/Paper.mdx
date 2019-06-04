@@ -1,0 +1,31 @@
+---
+menu: UI
+name: Paper
+---
+
+import { Link, Playground, Props } from 'docz';
+import RawPaper from './Paper';
+import Paper from './';
+import Divider from '../Divider';
+
+# Paper
+
+<span>
+  Paper is main construction material. Paper composes{' '}
+  <Link to="/rkta/packages-ui-src-text-text">Text</Link>.
+</span>
+
+## Props
+
+<Props of={RawPaper} />
+
+## Paper options
+
+<Playground>
+  <Paper css={{ padding: 8 }} rize={1}>
+    Rized paper
+  </Paper>
+  <Divider />
+  <Paper bgColor="primary" size={60} round hardBottom />
+  <Paper bgColor="secondary" size={60} round hardTop />
+</Playground>

@@ -1,0 +1,47 @@
+{
+  "name": "rkta_test",
+  "scripts": {
+    "build": "lerna run build",
+    "resetdeps": "lerna clean && lerna bootstrap",
+    "predocz:dev": "rm -rf .docz/cache",
+    "docz:dev": "docz dev",
+    "docz:build": "docz build",
+    "postinstall": "lerna bootstrap",
+    "lint": "lerna run lint",
+    "make": "lerna run lint && npm run build && lerna version patch",
+    "publish": "npm run make && lerna publish --contents lib",
+    "type-check": "lerna run type-check"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@typescript-eslint/eslint-plugin": "^1.9.0",
+    "@typescript-eslint/parser": "^1.9.0",
+    "babel-plugin-emotion": "^10.0.9",
+    "docz": "^1.1.0",
+    "docz-theme-default": "^1.1.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-plugin-emotion": "^10.0.7",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.13.0",
+    "lerna": "^3.13.4",
+    "prettier": "^1.17.1",
+    "typescript": "^3.4.5"
+  },
+  "licence": "MIT",
+  "version": "0.0.1",
+  "dependencies": {
+    "@types/react": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  }
+}
