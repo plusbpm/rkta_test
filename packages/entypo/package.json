@@ -1,6 +1,6 @@
 {
   "name": "@rkta_test/entypo",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "> TODO: description",
   "author": "Sergei Droganov <serge@droganov.ru>",
   "homepage": "https://github.com/plusbpm/rkta_test",
@@ -36,6 +36,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@rkta_test/ui": "^0.0.3"
+    "@rkta_test/ui": "^0.0.4"
   }
 }
