@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../src/Heading/index.ts"],"names":["Heading"],"mappings":";;;;;;;AAAA;;AAEA;;;;eAEe,wBAAO,SAAP,EAAkBA,mBAAlB,C","sourcesContent":["import Heading from './Heading';\n\nimport themed from '../util/themed';\n\nexport default themed('Heading', Heading);\n"],"file":"index.js"}
