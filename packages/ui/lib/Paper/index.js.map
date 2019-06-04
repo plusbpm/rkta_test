@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/Paper/index.ts"],"names":["Paper"],"mappings":";;;;;;;AAAA;;AAEA;;;;eAEe,wBAAO,OAAP,EAAgBA,iBAAhB,C","sourcesContent":["import Paper from './Paper';\n\nimport themed from '../util/themed';\n\nexport default themed('Paper', Paper);\n"],"file":"index.js"}

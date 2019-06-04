@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;AAAA;;AACA","sourcesContent":["import Svg from './Svg';\nimport { Props as SvgProps } from './Svg/Svg';\n\nexport { Svg, SvgProps };\n"],"file":"index.js"}

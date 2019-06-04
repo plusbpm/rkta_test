@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/Provider/index.ts"],"names":["useProviderContext","hook","Provider"],"mappings":";;;;;;;AAAA;;AACA;;;;AAEO,IAAMA,kBAAkB,GAAGC,8BAA3B;;eACQC,oB","sourcesContent":["import Provider from './Provider';\nimport hook from './useProviderContext';\n\nexport const useProviderContext = hook;\nexport default Provider;\n"],"file":"index.js"}

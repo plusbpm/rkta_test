@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/Atom/index.tsx"],"names":["Atom"],"mappings":";;;;;;;AAAA;;;;eAEeA,gB","sourcesContent":["import Atom from './Atom';\n\nexport default Atom;\n"],"file":"index.js"}

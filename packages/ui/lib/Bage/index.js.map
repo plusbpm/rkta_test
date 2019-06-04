@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/Bage/index.ts"],"names":["Bage"],"mappings":";;;;;;;AAAA;;AAEA;;;;eAEe,wBAAO,MAAP,EAAeA,gBAAf,C","sourcesContent":["import Bage from './Bage';\n\nimport themed from '../util/themed';\n\nexport default themed('Bage', Bage);\n"],"file":"index.js"}

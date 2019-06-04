@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/Svg/index.ts"],"names":["Svg"],"mappings":";;;;;;;AAAA;;AAEA;;;;eAEe,wBAAO,KAAP,EAAcA,eAAd,C","sourcesContent":["import Svg from './Svg';\n\nimport themed from '../util/themed';\n\nexport default themed('Svg', Svg);\n"],"file":"index.js"}

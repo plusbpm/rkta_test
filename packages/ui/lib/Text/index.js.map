@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/Text/index.ts"],"names":["Text"],"mappings":";;;;;;;AAAA;;AAEA;;;;eAEe,wBAAO,MAAP,EAAeA,gBAAf,C","sourcesContent":["import Text from './Text';\n\nimport themed from '../util/themed';\n\nexport default themed('Text', Text);\n"],"file":"index.js"}

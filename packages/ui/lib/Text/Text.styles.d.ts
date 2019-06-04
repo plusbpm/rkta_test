@@ -1,0 +1,28 @@
+import { CssRkta, ThemeInterface } from '../Provider/theme/theme.types';
+export declare const initialStyle: (theme: ThemeInterface) => CssRkta;
+export declare const color: (theme: ThemeInterface, props: {
+    color?: string | undefined;
+}) => CssRkta;
+export declare const serif: CssRkta;
+export declare const monospace: CssRkta;
+export declare const uppercase: CssRkta;
+export declare const baseline: CssRkta;
+export declare const muted: CssRkta;
+export declare const center: CssRkta;
+export declare const etched: CssRkta;
+export declare const readOnly: CssRkta;
+export declare const nowrap: CssRkta;
+export declare const wrap: CssRkta;
+export declare const hyphens: CssRkta;
+export declare const h1: CssRkta;
+export declare const h2: CssRkta;
+export declare const h3: CssRkta;
+export declare const h4: CssRkta;
+export declare const h5: CssRkta;
+export declare const h6: CssRkta;
+export declare const subtitle1: CssRkta;
+export declare const subtitle2: CssRkta;
+export declare const body2: CssRkta;
+export declare const button: CssRkta;
+export declare const caption: CssRkta;
+export declare const overline: CssRkta;
