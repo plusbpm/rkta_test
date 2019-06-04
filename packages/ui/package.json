@@ -42,5 +42,6 @@
     "@types/react": "latest",
     "emotion-theming": "latest",
     "lodash": "latest"
-  }
+  },
+  "gitHead": "c0dd8101033b75e78ce05dc4a002f7cfcb4d1238"
 }

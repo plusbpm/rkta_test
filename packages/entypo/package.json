@@ -37,5 +37,6 @@
   },
   "dependencies": {
     "@rkta_test/ui": "^0.0.5"
-  }
+  },
+  "gitHead": "c0dd8101033b75e78ce05dc4a002f7cfcb4d1238"
 }
