@@ -19,7 +19,7 @@
     "build:types": "tsc --emitDeclarationOnly",
     "build:js": "babel src --out-dir lib --extensions \".ts,.tsx\" --ignore \"**/*.spec.ts\" --source-maps",
     "lint": "npx eslint --ext .js,.jsx,.ts,.tsx src",
-    "prepare": "cp package.json lib/package.json",
+    "prepare": "cp package.json lib/package.json || exit 0",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
@@ -33,7 +33,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@rkta_test/ui": "^0.0.15"
+    "@rkta_test/ui": "latest"
   },
   "gitHead": "c0dd8101033b75e78ce05dc4a002f7cfcb4d1238"
 }
